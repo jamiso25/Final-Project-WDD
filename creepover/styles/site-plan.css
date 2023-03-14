@@ -35,7 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  background-image: url("https://raw.githubusercontent.com/jamiso25/Final-Project-WDD/master/Images/Fire.jpg");
+  background-image: url("https://raw.githubusercontent.com/jamiso25/Final-Project-WDD/master/Images/rsz_fire.jpg");
 }
 img {
   display: block;
@@ -109,6 +109,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
 
 }
 nav a {
@@ -173,4 +174,16 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
 }
